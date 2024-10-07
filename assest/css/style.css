@@ -87,6 +87,17 @@ body {
 a.main-btn:hover{
   color:#fff;
 }
+.main-btn-gray{
+background:#e2c4ff;
+padding: 15px 38px;
+border-radius: 27px;
+color: #000;
+transition: 0.3s;
+}
+.main-btn-gray:hover{
+background: var(--clr-theme-color-3);
+color: #fff;
+}
 /* End section */
 
 
