@@ -90,6 +90,21 @@ a.main-btn:hover{
 /* End section */
 
 
+/*Start about*/
+.sub-main-pargraph{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--pargraph-color);
+  
+}
+.about  li::marker{
+  color:var(--clr-theme-color);
+  font-size: 2rem;
+  
+}
+
+/*End about*/
+
 
 /* Start sloution section */
 
