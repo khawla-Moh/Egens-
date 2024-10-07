@@ -5,6 +5,7 @@
   --clr-theme-color-2: #4526b1;
   --clr-theme-color-3: #5435be;
   --pargraph-color: #54545f;
+  --text-color:#1c1c1c;
 }
 body {
   font-family: "Jost", sans-serif;
@@ -26,9 +27,9 @@ body {
   color: var(--secondary-color);
 }
 .navbar .navbar-nav .nav-link {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
-  color: black;
+  color: var(--text-color);
 }
 .navbar .navbar-nav .nav-item:hover .nav-link {
   color: var(--secondary-color);
@@ -37,8 +38,15 @@ body {
 .navbar-toggler-icon {
   background-image: url(../images/toggler.png);
 }
-
+.navbar-nav .nav-item{
+  padding:1em ;
+  font-weight: 500;  
+  color: var(--text-color); 
+}
 /* End Nav */
+
+
+
 /* Start section */
 .main-subtitle {
   color: var(--secondary-color);
@@ -54,6 +62,16 @@ body {
   font-weight: 400;
   color: var(--pargraph-color);
 }
+    
+.main-btn1{
+  background: linear-gradient(
+    135deg,
+    var(--clr-theme-color-2) 0%,
+    var(--clr-theme-color-3) 45%,
+    var(--clr-theme-color) 66%
+  );
+  padding: 12px;
+}
 .main-btn {
   background: linear-gradient(
     135deg,
@@ -61,11 +79,18 @@ body {
     var(--clr-theme-color-3) 45%,
     var(--clr-theme-color) 66%
   );
+  
   padding: 16px 38px;
   border-radius: 27px;
   color: #fff;
 }
+a.main-btn:hover{
+  color:#fff;
+}
 /* End section */
+
+
+
 /* Start sloution section */
 
 .feature-icon {
