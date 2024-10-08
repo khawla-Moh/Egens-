@@ -5,7 +5,9 @@
   --clr-theme-color-2: #4526b1;
   --clr-theme-color-3: #5435be;
   --pargraph-color: #54545f;
+  --pargraph-color-1: #7a7a81;
   --text-color:#1c1c1c;
+  
 }
 body {
   font-family: "Jost", sans-serif;
@@ -62,7 +64,12 @@ body {
   font-weight: 400;
   color: var(--pargraph-color);
 }
-    
+.main-pargraph-1{
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--pargraph-color-1);
+
+}    
 .main-btn1{
   background: linear-gradient(
     135deg,
@@ -97,6 +104,10 @@ transition: 0.3s;
 .main-btn-gray:hover{
 background: var(--clr-theme-color-3);
 color: #fff;
+}
+.work-banner .main-btn-gray:hover{
+  background: #e2c4ff;
+  color: var(--clr-theme-color-2);
 }
 /* End section */
 
@@ -178,6 +189,22 @@ color: #fff;
 }
 /* End Services */
 
+/* start work-banner */
+
+.work-banner0{
+  background: var(--main-color);
+ }
+ 
+.work-banner{
+  background: var(--clr-theme-color-2);
+  color: #fff;
+  border-radius: 30px;
+  
+}
+/* end work-banner */
+
+
+
 /* Media Query  */
 
 /* mobile */
@@ -223,6 +250,8 @@ color: #fff;
     padding: 0px 14px !important;
   }
 }
+
+
 /* tablet */
 @media (min-width: 577px) and (max-width: 991px) {
   .main-title {
