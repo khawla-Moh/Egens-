@@ -482,7 +482,227 @@ color: #fff;
  */
 /* end work-banner */
 
-
+/* start boost  */
+.boost-image {
+  position: relative;
+  margin-right: 110px;
+  min-height: 650px;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .boost-image {
+    min-height: 700px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .boost-image {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .boost-image {
+    min-height: 550px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .boost-image {
+    min-height: 700px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .boost-image {
+    min-height: 610px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .boost-image {
+    min-height: 490px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .boost-image {
+    min-height: 360px;
+  }
+}
+.boost-image-badge {
+  border-color: #4526b1;
+  background: #4526b1;
+  background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+  border: 0px;
+  border-radius: 10px;
+  height: 125px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -18%;
+  top: 23%;
+  z-index: 4;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .boost-image-badge {
+    left: -9%;
+    top: 31%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .boost-image-badge {
+    left: -4%;
+    top: 24%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .boost-image-badge {
+    left: 4%;
+    top: 22%;
+    height: 100px;
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .boost-image-badge {
+    left: 15%;
+    top: 30%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .boost-image-badge {
+    left: 5%;
+    top: 29%;
+    height: 90px;
+    width: 90px;
+  }
+  .boost-image-badge img {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .boost-image-badge {
+    left: 0%;
+    top: 25%;
+    height: 70px;
+    width: 70px;
+  }
+  .boost-image-badge img {
+    width: 55%;
+  }
+}
+.boost-image-one {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .boost-image-one {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .boost-image-one {
+    width: 70%;
+  }
+}
+.boost-image-two {
+  position: absolute;
+  left: -33%;
+  bottom: -4%;
+  z-index: 3;
+}
+@media only screen and (min-width: 992px) and (max-width: 1650px) {
+  .boost-image-two {
+    left: -24%;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .boost-image-two {
+    left: -9%;
+    bottom: 0%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .boost-image-two {
+    left: -4%;
+    bottom: 0%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .boost-image-two {
+    left: -6%;
+    width: 80%;
+    bottom: 0%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .boost-image-two {
+    left: 0%;
+    bottom: 0%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .boost-image-two {
+    left: -5%;
+    bottom: 0%;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .boost-image-two {
+    left: 0%;
+    width: 60%;
+  }
+}
+.boost-image-shape {
+  position: absolute;
+  left: 29%;
+  bottom: 4%;
+  z-index: 1;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .boost-image-shape {
+    bottom: 11%;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .boost-image-shape {
+    left: 48%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .boost-image-shape {
+    left: 51%;
+    bottom: 7%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .boost-image-shape {
+    left: 48%;
+    bottom: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .boost-image-shape {
+    left: 50%;
+    bottom: 7%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .boost-image-shape {
+    left: 43%;
+    bottom: 13%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .boost-image-shape {
+    left: 48%;
+    bottom: 4%;
+    width: 40%;
+  }
+}
+/* end boost */
 
 /* Media Query  */
 
